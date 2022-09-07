@@ -19,3 +19,23 @@ $white: hsl(0, 0%, 100%);
 // Layout variables
 $mobile: 375px;
 $desktop: 1440px;
+
+
+// Styles
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+.card {
+	.card-body {
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		h1::before {}
+	}
+}
